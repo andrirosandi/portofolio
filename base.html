@@ -1,0 +1,136 @@
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">Andri Rosandi</a>
+            <div class="space-x-4">
+                <a href="#" class="hover:text-gray-300">Home</a>
+                <a href="#about" class="hover:text-gray-300">About</a>
+                <a href="#portfolio" class="hover:text-gray-300">Portfolio</a>
+                <a href="#contact" class="hover:text-gray-300">Contact</a>
+            </div>
+            <div class="space-x-2">
+                <a href="#" class="bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded">Download CV</a>
+                <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gray-100 py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">Hello, I'm Andri Rosandi</h1>
+            <p class="text-xl mb-8">IT & Fullstack Developer based in Jakarta, specializing in ERP Implementations and Software Development.</p>
+            <p class="mb-8">Bringing ideas to life with clean code and innovative solutions. Let's build something great together.</p>
+            <div class="space-x-4">
+                <a href="#portfolio" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded">Explore My Work</a>
+                <a href="#contact" class="bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 rounded">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+            <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/3 mb-8 md:mb-0">
+                    <img src="path/to/headshot.jpg" alt="Andri Rosandi" class="rounded-full mx-auto" style="width: 200px; height: 200px; object-fit: cover;">
+                </div>
+                <div class="w-full md:w-2/3">
+                    <p class="mb-4">I'm an IT and Software Developer with a passion for creating efficient and innovative technological solutions to solve business problems. With experience in web application development, ERP implementation, and technology project management, I bring a comprehensive skill set to every project.</p>
+                    <h3 class="text-xl font-bold mb-2">Skills:</h3>
+                    <ul class="list-disc list-inside mb-4">
+                        <li>PHP & Laravel</li>
+                        <li>SQL/MySQL & SAP SQL Anywhere</li>
+                        <li>JavaScript & Bootstrap</li>
+                        <li>Linux</li>
+                        <li>Orlansoft ERP</li>
+                        <li>Git & Docker</li>
+                    </ul>
+                    <h3 class="text-xl font-bold mb-2">Experience:</h3>
+                    <ul class="mb-4">
+                        <li>IT & App Developer - PT. Sahabat Jaya Sukses (September 2019 - Present)</li>
+                        <li>Application Developer & Owner - AFD Pulsa - Server Pulsa (August 2016 - February 2019)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-gray-100 py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">My Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold mb-2">AFDPulsa - Pulse Server</h3>
+                    <p>A pulse server software built using PHP CLI.</p>
+                    <p class="mt-2"><strong>Role:</strong> Owner and Developer</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold mb-2">Sahabatjayasukses.com</h3>
+                    <p>E-commerce website for PT. Sahabat Jaya Sukses, operating in the Plywood industry.</p>
+                    <p class="mt-2"><strong>Year:</strong> 2022</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold mb-2">KOMINFO's Identik Website Enhancement</h3>
+                    <p>Bug fixes and feature adjustments on admin and jury pages.</p>
+                    <p class="mt-2"><strong>Year:</strong> 2020</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block mb-2">Name</label>
+                            <input type="text" id="name" name="name" class="w-full p-2 border rounded">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full p-2 border rounded">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded"></textarea>
+                        </div>
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Send Message</button>
+                    </form>
+                </div>
+                <div class="w-full md:w-1/2 md:pl-8">
+                    <h3 class="text-xl font-bold mb-4">Contact Information</h3>
+                    <p class="mb-2">Email: me@andrirosandi.my.id</p>
+                    <p class="mb-2">WhatsApp: +62 812 - 8080 - 4800</p>
+                    <p>Location: Tangerang, Tangerang City, Banten, Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <div class="mb-4">
+                <a href="#" class="hover:text-gray-300 mx-2">Home</a>
+                <a href="#about" class="hover:text-gray-300 mx-2">About</a>
+                <a href="#portfolio" class="hover:text-gray-300 mx-2">Portfolio</a>
+                <a href="#contact" class="hover:text-gray-300 mx-2">Contact</a>
+            </div>
+            <div class="mb-4">
+                <a href="#" class="text-gray-300 hover:text-white mx-2"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-gray-300 hover:text-white mx-2"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-gray-300 hover:text-white mx-2"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Andri Rosandi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>

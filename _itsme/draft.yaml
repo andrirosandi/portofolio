@@ -1,0 +1,105 @@
+website:
+  name: "Andri Rosandi Personal Website"
+  language: "English"
+
+navigation:
+  menu:
+    - Home
+    - About
+    - Portfolio
+    - Contact
+  cta:
+    - Download CV
+    - GitHub
+    - Instagram
+    - LinkedIn
+
+sections:
+  home:
+    hero:
+      heading: "Hello, I'm Andri Rosandi"
+      subheading: "IT & Fullstack Developer based in Jakarta, specializing in ERP Implementations and Software Development."
+      description: "Bringing ideas to life with clean code and innovative solutions. Let's build something great together."
+    cta_buttons:
+      - text: "Explore My Work"
+        link: "#portfolio"
+      - text: "Get in Touch"
+        link: "#contact"
+    social_icons:
+      - platform: GitHub
+        link: "#"
+      - platform: LinkedIn
+        link: "#"
+      - platform: Instagram
+        link: "#"
+
+  about:
+    profile:
+      image: "path/to/headshot.jpg"
+      introduction: >
+        I'm an IT and Software Developer with a passion for creating efficient and innovative 
+        technological solutions to solve business problems. With experience in web application 
+        development, ERP implementation, and technology project management, I bring a 
+        comprehensive skill set to every project.
+    skills:
+      - PHP & Laravel
+      - SQL/MySQL & SAP SQL Anywhere
+      - JavaScript & Bootstrap
+      - Linux
+      - Orlansoft ERP
+      - Git & Docker
+    experience:
+      - role: IT & App Developer
+        company: PT. Sahabat Jaya Sukses
+        period: September 2019 - Present
+      - role: Application Developer & Owner
+        company: AFD Pulsa - Server Pulsa
+        period: August 2016 - February 2019
+    education:
+      - institution: Bina Sarana Informatika
+        degree: Information Management
+        period: 2010 - 2014
+    certifications:
+      - name: Orlansoft ERP for Technical Associate
+        validity: January 2025
+      - name: Orlansoft ERP for Retail Distribution Associate
+        validity: January 2025
+
+  portfolio:
+    projects:
+      - name: AFDPulsa - Pulse Server
+        description: A pulse server software built using PHP CLI.
+        role: Owner and Developer
+      - name: Sahabatjayasukses.com
+        description: E-commerce website for PT. Sahabat Jaya Sukses, operating in the Plywood industry.
+        year: 2022
+      - name: KOMINFO's Identik Website Enhancement
+        description: Bug fixes and feature adjustments on admin and jury pages.
+        year: 2020
+      - name: Orlansoft ERP Implementation - PT. NGI
+        description: Server setup, implementation, employee training, and custom report creation.
+      - name: Salesmobile - PT. NGI
+        description: Mobile application to facilitate sales order creation, integrated with Orlansoft ERP.
+
+  contact:
+    form:
+      fields:
+        - name
+        - email
+        - message
+    direct_contact:
+      email: me@andrirosandi.my.id
+      whatsapp: +62 812 - 8080 - 4800
+    location: Tangerang, Tangerang City, Banten, Indonesia
+
+footer:
+  quick_links:
+    - Home
+    - About
+    - Portfolio
+    - Contact
+  social_media:
+    - GitHub
+    - LinkedIn
+    - Instagram
+  copyright: "© 2024 Andri Rosandi. All rights reserved."
